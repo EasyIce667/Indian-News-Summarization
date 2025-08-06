@@ -24,7 +24,6 @@ The dataset is preprocessed to clean text, remove empty rows, and tokenize data.
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/indian-news-summarization.git
-   cd indian-news-summarization
    ```
 
 2. Install dependencies:
