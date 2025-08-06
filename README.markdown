@@ -2,19 +2,6 @@
 
 This project demonstrates text summarization of Hindi news articles using a fine-tuned **IndicBARTSS** model from `ai4bharat`. The pipeline includes data preprocessing, model fine-tuning, evaluation, and an interactive Gradio interface for generating summaries.
 
-## Table of Contents
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Fine-Tuning IndicBARTSS](#fine-tuning-indicbartss)
-- [Testing the Model](#testing-the-model)
-- [Gradio Interface](#gradio-interface)
-- [Dependencies](#dependencies)
-- [Notes and Limitations](#notes-and-limitations)
-- [License](#license)
-
 ## Overview
 This project uses the **IndicBARTSS** model, a sequence-to-sequence transformer designed for Indian languages, to summarize Hindi news articles. The workflow includes:
 - Loading and preprocessing a Hindi news dataset.
