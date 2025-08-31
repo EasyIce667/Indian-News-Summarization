@@ -28,7 +28,7 @@ The dataset is preprocessed to clean text, remove empty rows, and tokenize data.
 
 2. Install dependencies:
    ```bash
-   pip install transformers==4.40关
+   pip install transformers==4.40
    pip install torch==2.0.0
    pip install indic-nlp-library==0.92
    pip install sentencepiece==0.2.0
