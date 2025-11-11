@@ -1,0 +1,9 @@
+python==3.11
+transformers==4.38.2
+torch==2.0.0
+indic-nlp-library==0.92
+sentencepiece==0.2.0
+gradio==4.38.0
+datasets==2.21.0
+pandas==2.2.2
+wandb==0.19.11
