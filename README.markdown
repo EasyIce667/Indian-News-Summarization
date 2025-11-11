@@ -27,24 +27,15 @@ The dataset is preprocessed to clean text, remove empty rows, and tokenize data.
    ```
 
 2. Install dependencies:
-   ```bash
-   pip install transformers==4.40
-   pip install torch==2.0.0
-   pip install indic-nlp-library==0.92
-   pip install sentencepiece==0.2.0
-   pip install gradio==4.38.0
-   pip install datasets==2.21.0
-   pip install pandas==2.2.2
-   pip install wandb==0.19.11
-   ```
+   available in requirements.txt 
 
-3. (Optional) Mount Google Drive in Google Colab:
+4. (Optional) Mount Google Drive in Google Colab:
    ```python
    from google.colab import drive
    drive.mount('/content/drive')
    ```
 
-4. Set up Weights & Biases (WandB) for training logging:
+5. Set up Weights & Biases (WandB) for training logging:
    - Create a WandB account and obtain an API key from [https://wandb.ai](https://wandb.ai).
    - Set the API key as an environment variable or enter it when prompted during training:
      ```bash
@@ -126,7 +117,6 @@ Install with:
 pip install -r requirements.txt
 ```
 
-Create a `requirements.txt` file with the above dependencies for reproducibility.
 
 ## Notes and Limitations
 - **Dataset Availability**: Ensure you have access to `hindi_news_dataset.csv`. The notebook limits rows to 129,934 to handle potential dataset errors.
